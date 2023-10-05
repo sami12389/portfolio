@@ -1,6 +1,6 @@
 {
-  "homepage": "https://sami12389.github.io/portfolio",
-  "name": "frontend-app",
+  "homepage": "./",
+  "name": "samson-lemma",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
