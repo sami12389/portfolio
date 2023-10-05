@@ -1,0 +1,49 @@
+.app__main-cert-container{
+   display: flex;
+   justify-content: space-evenly;
+   flex-wrap: wrap;
+
+   .app__cert-container{
+    width: 200px;
+   }
+
+    div{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin: 30px;
+
+        @media screen and (max-width: 900px) {
+            margin: 15px;
+        }
+
+        img {
+            height: 150px;
+            width: 150px;
+            padding: 20px;
+            background-color: white;
+            border-radius: 10%;
+            border: 0px solid black;
+
+            @media screen and (max-width: 900px){
+                height: 150px;
+                width: 150px;
+            }
+        }
+
+        div{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            max-width: 250px;
+        }
+    }
+
+    @media screen and (max-width: 900px){
+        flex-direction: column;
+    }
+}
+
+
+
