@@ -76,7 +76,6 @@ const Skills = () => {
               {work.desc}
             </p>
             <hr/>
-            <button className = "btn">VIEW RESUME</button>
             </div>
           ))}
         </motion.div>
