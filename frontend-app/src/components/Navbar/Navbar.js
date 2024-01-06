@@ -29,14 +29,6 @@ const Navbar = () => {
       </ul>
 
       <div className = "social-icons">
-        <a 
-      href = "https://drive.google.com/file/d/1s2LLG7dY7D1Vgmuoa9VHor0qQknP7uVU/view?usp=sharing"
-      target = "_black"
-      rel="noopener noreferrer"
-      className = "nav-icons"
-      >
-      RESUME
-      </a>
       <a href = "https://www.linkedin.com/in/samson-lemma-7ab722215/"
       target= "_blank"
       rel="noopener noreferrer">
